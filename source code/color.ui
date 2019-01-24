@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Color</class>
+ <widget class="QDialog" name="Color">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>883</width>
+    <height>446</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="channel1">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>50</y>
+     <width>54</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>通道1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="channel2">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>50</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>通道2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="channel3">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>50</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>通道3</string>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>80</y>
+     <width>251</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>249</width>
+      <height>289</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QScrollArea" name="scrollArea_2">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>80</y>
+     <width>251</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>249</width>
+      <height>289</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QScrollArea" name="scrollArea_3">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>80</y>
+     <width>251</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>249</width>
+      <height>289</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
